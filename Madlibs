@@ -1,0 +1,16 @@
+noun1 = input("Noun: ")
+verb1 = input("Verb: ")
+liquid = input("Liquid: ")
+verb_ending_in_ed = input("Verb Ending in ED: ")
+noun2 = input("Noun: ")
+verb_ending_in_ing = input("Verb Ending in ING: ")
+verb2 = input("Verb: ")
+adj1 = input("Adjective: ")
+noun3 = input("Noun: ")
+adj2 = input("Adjective: ")
+
+madlib = f"Jack and Jill went up the {noun1} to {verb1} a pail of {liquid}. Jack {verb_ending_in_ed} down, and broke his \
+{noun2}, and Jill came {verb_ending_in_ing} after. Then up Jack got and off did {verb2},as {adj1} as he could caper, \
+To old Dame Dob, who patched his {noun2} with {noun3} and {adj2} paper. "
+
+print(madlib)
